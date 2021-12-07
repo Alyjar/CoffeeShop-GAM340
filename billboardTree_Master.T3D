@@ -1,0 +1,661 @@
+Begin Object Class=/Script/Engine.Material Name="billboardTree_Master"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRuntimeVirtualTextureSampleParameter Name="MaterialExpressionRuntimeVirtualTextureSampleParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSaturate Name="MaterialExpressionSaturate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"billboardTree_Master:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=2)
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=D69566FA4C448C59FDBE36ACD3056BBA
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_7"')
+      B=(Expression=MaterialExpressionTransform'"billboardTree_Master:MaterialExpressionTransform_1"')
+      MaterialExpressionEditorX=-1030
+      MaterialExpressionEditorY=434
+      MaterialExpressionGuid=901A88AB41F3FCABDAEE70ABC0A8E7FD
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_5"')
+      B=(Expression=MaterialExpressionConstant'"billboardTree_Master:MaterialExpressionConstant_6"')
+      MaterialExpressionEditorX=-2038
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=4635DCC844BA8D6835A0549A99290E13
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=1664
+      SizeY=816
+      Text="Color"
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-1024
+      MaterialExpressionGuid=BBDAED1B48EA9FFAE727EB8839D9628C
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=1200
+      SizeY=416
+      Text="Highlight"
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=534F9D9A4E2ED8DC81A2B0A37C709361
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=1965
+      SizeY=447
+      Text="BillboardWPO"
+      MaterialExpressionEditorX=-2736
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=2DB5D1E24EE6C537C187A29197245681
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.500000
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=-336
+      MaterialExpressionGuid=C18A67AD4AE0356FE2EB878D1C997DED
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=2.000000
+      MaterialExpressionEditorX=-2520
+      MaterialExpressionEditorY=424
+      MaterialExpressionGuid=A2A716E94EC242E8E156B4BF13C38812
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=1.000000
+      MaterialExpressionEditorX=-2394
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=63E0EE284786D0D25892E18B46055725
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=-2134
+      MaterialExpressionEditorY=434
+      MaterialExpressionGuid=8775C83342E674C0C423AC90C50558D5
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_0"
+      R=-1.000000
+      G=1.000000
+      MaterialExpressionEditorX=-2294
+      MaterialExpressionEditorY=434
+      MaterialExpressionGuid=5850AD5C4045397B7539F68BD2C894C0
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      ExponentIn=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_5"')
+      MaterialExpressionEditorX=-1565
+      MaterialExpressionEditorY=-65
+      MaterialExpressionGuid=A04335B748FD81F3B2AEB6A920D85BAD
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"billboardTree_Master:MaterialExpressionStaticSwitchParameter_0"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"billboardTree_Master:MaterialExpressionMaterialFunctionCall_0"')
+      Alpha=(Expression=MaterialExpressionOneMinus'"billboardTree_Master:MaterialExpressionOneMinus_0"')
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-624
+      MaterialExpressionGuid=25561DFC4F4CF191FCEF168CAD1D0AD7
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/HueShift.HueShift"'
+      FunctionInputs(0)=(ExpressionInputId=AC2B9A554C8F2FC44CAFC38DEECA8B27,Input=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_0"',InputName="Hue Shift Percentage"))
+      FunctionInputs(1)=(ExpressionInputId=7357D1CC481540757C89D685B6F4ED36,Input=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_0"',InputName="Texture"))
+      FunctionOutputs(0)=(ExpressionOutputId=52E5E332482A8447B8F4679D4758D2F3,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=-832
+      MaterialExpressionGuid=1DA716514BC1F83FEBFE39A5E196A94A
+      Material=Material'"billboardTree_Master"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components"'
+      FunctionInputs(0)=(ExpressionInputId=0FC5C56B4335798F20CB928CF1C87421,Input=(Expression=MaterialExpressionVertexNormalWS'"billboardTree_Master:MaterialExpressionVertexNormalWS_0"',InputName="Float3"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BC893C247FCFC567178CE944E213385,Output=(OutputName="R"))
+      FunctionOutputs(1)=(ExpressionOutputId=9720C81E449DF8E5514FCB8A80FD5FA3,Output=(OutputName="G"))
+      FunctionOutputs(2)=(ExpressionOutputId=17CE6E2C4E70841B48F3D1B73828AA03,Output=(OutputName="B"))
+      MaterialExpressionEditorX=-1770
+      MaterialExpressionEditorY=-477
+      MaterialExpressionGuid=9BB9164C4B54AD89C7CBEBA417ECE74A
+      Material=Material'"billboardTree_Master"'
+      Outputs(0)=(OutputName="R")
+      Outputs(1)=(OutputName="G")
+      Outputs(2)=(OutputName="B")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SimpleGrassWind.SimpleGrassWind"'
+      FunctionInputs(0)=(ExpressionInputId=59B25CA344057CBC047826BBB081BB6A,Input=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_10"',InputName="WindIntensity"))
+      FunctionInputs(1)=(ExpressionInputId=9F127867429E94C853245BA415B9133D,Input=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_11"',InputName="WindWeight"))
+      FunctionInputs(2)=(ExpressionInputId=B142CFD84EFE5357F8C6E6A44E070E4D,Input=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_12"',InputName="WindSpeed"))
+      FunctionInputs(3)=(ExpressionInputId=12C80829425389C3EE47AC97BD178E9D,Input=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_8"',InputName="AdditionalWPO"))
+      FunctionOutputs(0)=(ExpressionOutputId=786F77A7413AC09BF7F84581E91EE756,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=468007E9499F943779E7AF99AD9DA569
+      Material=Material'"billboardTree_Master"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"billboardTree_Master:MaterialExpressionStaticSwitchParameter_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_1"')
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-736
+      MaterialExpressionGuid=6E3E27D441B480FBFC37A1A328B8677C
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionAdd'"billboardTree_Master:MaterialExpressionAdd_0"')
+      B=(Expression=MaterialExpressionConstant'"billboardTree_Master:MaterialExpressionConstant_1"')
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=F261A8994C1E5A67BE903CBF092CC59E
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionSaturate'"billboardTree_Master:MaterialExpressionSaturate_0"')
+      B=(Expression=MaterialExpressionVectorParameter'"billboardTree_Master:MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1067
+      MaterialExpressionEditorY=15
+      MaterialExpressionGuid=CCB6ADAD4922159678EF56B69881DF29
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_2"')
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=-907
+      MaterialExpressionEditorY=63
+      MaterialExpressionGuid=50060EC44916C3BB3EF209A7775764F8
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionOneMinus'"billboardTree_Master:MaterialExpressionOneMinus_1"')
+      B=(Expression=MaterialExpressionConstant'"billboardTree_Master:MaterialExpressionConstant_4"')
+      MaterialExpressionEditorX=-2433
+      MaterialExpressionEditorY=333
+      MaterialExpressionGuid=6D7FC43046F7F52459C6288E6400F077
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionSubtract'"billboardTree_Master:MaterialExpressionSubtract_0"')
+      B=(Expression=MaterialExpressionConstant2Vector'"billboardTree_Master:MaterialExpressionConstant2Vector_0"')
+      MaterialExpressionEditorX=-2166
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=B21970804A964CEDC77D52B92E51D732
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionNormalize'"billboardTree_Master:MaterialExpressionNormalize_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_13"')
+      MaterialExpressionEditorX=-1542
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=DABDF3FE4EEEE46764BC0B989A347109
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionVertexNormalWS'"billboardTree_Master:MaterialExpressionVertexNormalWS_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_14"')
+      MaterialExpressionEditorX=-1174
+      MaterialExpressionEditorY=354
+      MaterialExpressionGuid=C3FEF10742C2A8C6621FD4B753CDD494
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionAdd'"billboardTree_Master:MaterialExpressionAdd_2"')
+      B=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_15"')
+      MaterialExpressionEditorX=-918
+      MaterialExpressionEditorY=498
+      MaterialExpressionGuid=6F7B66194D0B481C781ECE8D709E2419
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionTransform'"billboardTree_Master:MaterialExpressionTransform_0"')
+      MaterialExpressionEditorX=-1686
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=4348D71149D8E73F6ACC11BA2F8F2917
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionPower'"billboardTree_Master:MaterialExpressionPower_0"')
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=8BF104334D1F0091A64992BFE96E9AD1
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_1"
+      Input=(Expression=MaterialExpressionTextureCoordinate'"billboardTree_Master:MaterialExpressionTextureCoordinate_0"')
+      MaterialExpressionEditorX=-2548
+      MaterialExpressionEditorY=370
+      MaterialExpressionGuid=1F364207452328A7CE49C88A7071C0B4
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_0"
+      Base=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_1"')
+      Exponent=(Expression=MaterialExpressionScalarParameter'"billboardTree_Master:MaterialExpressionScalarParameter_4"')
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=100D17274B4C104E35151C9450CFDE0F
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionRuntimeVirtualTextureSampleParameter_0"
+      ParameterName="colorRVT"
+      ExpressionGUID=08562BCD4814E8A08B882A8459EC7FD3
+      Group="baseColor"
+      VirtualTexture=RuntimeVirtualTexture'"/Game/Mats/RVT/landscapeColorTest.landscapeColorTest"'
+      MaterialType=BaseColor_Normal_Specular
+      MaterialExpressionEditorX=-2400
+      MaterialExpressionEditorY=-960
+      MaterialExpressionGuid=AD8C3F694AB54F438F5B22B21137700C
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionSaturate_0"
+      Input=(Expression=MaterialExpressionFresnel'"billboardTree_Master:MaterialExpressionFresnel_0"')
+      MaterialExpressionEditorX=-1339
+      MaterialExpressionEditorY=-65
+      MaterialExpressionGuid=DFDB5D654920F80516A885B9A513BFF3
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      ParameterName="HueShift"
+      ExpressionGUID=A9BE3D034F706BC4DD50DFAB7EA170CE
+      Group="baseColor"
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-912
+      MaterialExpressionGuid=CD1EBF5E495FB3BD9705AFB273D97266
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      ParameterName="undersideColor"
+      ExpressionGUID=4F6F52CE4BA6D53C92EABC92524666A2
+      Group="baseColor"
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=-672
+      MaterialExpressionGuid=CD1EBF5E495FB3BD9705AFB273D97266
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      ParameterName="windIntensity"
+      ExpressionGUID=A7CB11DF447ACF815F0CA6A9B777607B
+      Group="wind"
+      MaterialExpressionEditorX=-736
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=E86C1A8647BE5D29F120A7A9F727568D
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      ParameterName="windWeight"
+      ExpressionGUID=7E03AFA4497F5E824B1CB0B99A6A5627
+      Group="wind"
+      MaterialExpressionEditorX=-736
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=E86C1A8647BE5D29F120A7A9F727568D
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_12"
+      ParameterName="windSpeed"
+      ExpressionGUID=16987903454B33B2D7984C9111150D0B
+      Group="wind"
+      MaterialExpressionEditorX=-736
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=E86C1A8647BE5D29F120A7A9F727568D
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_13"
+      DefaultValue=1.000000
+      ParameterName="billBoardSize"
+      ExpressionGUID=9E219F854B7FBFE52087DFA9AE3FAE6B
+      Group="billboardWPO"
+      MaterialExpressionEditorX=-1830
+      MaterialExpressionEditorY=402
+      MaterialExpressionGuid=8355F7FA4C7479F3C040E19BC39E5D2B
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_14"
+      ParameterName="inflate"
+      ExpressionGUID=16EDF8134A3CEF3E2F1B859B3095E173
+      Group="billboardWPO"
+      MaterialExpressionEditorX=-1318
+      MaterialExpressionEditorY=418
+      MaterialExpressionGuid=5390BA2143832334735C2C803454E6D6
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_15"
+      ParameterName="billboardWPOScale"
+      ExpressionGUID=EB644F8744F9C963F943DBB2DFE5B550
+      Group="billboardWPO"
+      MaterialExpressionEditorX=-1126
+      MaterialExpressionEditorY=594
+      MaterialExpressionGuid=AFB0F310448E60ADA6280E9C6758B7DA
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_16"
+      DefaultValue=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=E8BBC5424E8CAE4154894E8AA89EC50D
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=855C1FB44E79FD5743886E9BB719004E
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      ParameterName="normalAdd"
+      ExpressionGUID=6510816749E170EE632D449201C70CBE
+      Group="baseColor"
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=-352
+      MaterialExpressionGuid=CD1EBF5E495FB3BD9705AFB273D97266
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      ParameterName="normalPower"
+      ExpressionGUID=78AEFE16434CCC8951DF979DF09C5FD6
+      Group="baseColor"
+      MaterialExpressionEditorX=-1434
+      MaterialExpressionEditorY=-338
+      MaterialExpressionGuid=CD1EBF5E495FB3BD9705AFB273D97266
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      ParameterName="fresnelExpoent"
+      ExpressionGUID=8F5F482142AF6B79E4FB8BAF26DC8711
+      Group="colorHighlight"
+      MaterialExpressionEditorX=-1727
+      MaterialExpressionEditorY=-75
+      MaterialExpressionGuid=5C2B7E4C4629AC6E2B33D0A10158C55A
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      ParameterName="emissiveStrength"
+      ExpressionGUID=22C9EDF14ECE2D21CC0BCAB39AB81714
+      Group="colorHighlight"
+      MaterialExpressionEditorX=-1115
+      MaterialExpressionEditorY=111
+      MaterialExpressionGuid=43EC142A400F320AB1115FB7B4A2E50A
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionRuntimeVirtualTextureSampleParameter'"billboardTree_Master:MaterialExpressionRuntimeVirtualTextureSampleParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"billboardTree_Master:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ParameterName="useRVT?"
+      ExpressionGUID=561709494D122C9FD0E057B0F971A174
+      Group="baseColor"
+      MaterialExpressionEditorX=-1952
+      MaterialExpressionEditorY=-864
+      MaterialExpressionGuid=1EFC7C1E4397BFC3764F148B90D89B1E
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_4"')
+      B=(Expression=MaterialExpressionConstant'"billboardTree_Master:MaterialExpressionConstant_5"')
+      MaterialExpressionEditorX=-2310
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=689F987A4B4030D841DAD79DFEA18786
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-2720
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=E8AB79A5400DA2F37449A5A42C09A1DC
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="OpacityMask"
+      ExpressionGUID=E66F02DA44528DFFD7588F9225C5E7C5
+      Group="OpacityMask"
+      Texture=Texture2D'"/Game/Mats/Foliage/treeAlpha.treeAlpha"'
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=94A4CC4544B63964DC39EFA0F426EE34
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionTransform_0"
+      Input=(Expression=MaterialExpressionAppendVector'"billboardTree_Master:MaterialExpressionAppendVector_0"')
+      TransformSourceType=TRANSFORMSOURCE_Camera
+      TransformType=TRANSFORM_Local
+      MaterialExpressionEditorX=-1926
+      MaterialExpressionEditorY=322
+      MaterialExpressionGuid=B2232BAA42F6B3B9B2F3C9BB08F8800A
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionTransform_1"
+      Input=(Expression=MaterialExpressionMultiply'"billboardTree_Master:MaterialExpressionMultiply_6"')
+      TransformSourceType=TRANSFORMSOURCE_Local
+      MaterialExpressionEditorX=-1286
+      MaterialExpressionEditorY=498
+      MaterialExpressionGuid=B40030EB4510B531F6C471A2AD7B699D
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.330711,G=0.546875,B=0.038311,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=E0C21BBE4A3DEBA96D9D669E18F10BDB
+      Group="baseColor"
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=-736
+      MaterialExpressionGuid=A2A9341F4BF6662C1037FBADAAB5168C
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.404903,G=0.479167,B=0.078242,A=1.000000)
+      ParameterName="Highlight"
+      ExpressionGUID=78ECC3174E1C9FAD16F4D285723743C7
+      Group="colorHighlight"
+      MaterialExpressionEditorX=-1349
+      MaterialExpressionEditorY=27
+      MaterialExpressionGuid=09C34D4149D2C6CFDFEB76B74144753D
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_0"
+      MaterialExpressionEditorX=-1936
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=DBFE6BAA4797D17E7123178FC3413105
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_1"
+      MaterialExpressionEditorX=-1366
+      MaterialExpressionEditorY=338
+      MaterialExpressionGuid=8FAB8B334FCD2636E31396BE114BE994
+      Material=Material'"billboardTree_Master"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_16"')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"')
+   OpacityMask=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   BlendMode=BLEND_Masked
+   WorldPositionOffset=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"')
+   bUsedWithInstancedStaticMeshes=True
+   Expressions(0)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_16"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(3)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(4)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(7)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(8)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(9)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(10)=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_0"'
+   Expressions(11)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(12)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(14)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(15)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(16)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(17)=MaterialExpressionPower'"MaterialExpressionPower_0"'
+   Expressions(18)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   Expressions(19)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(20)=MaterialExpressionFresnel'"MaterialExpressionFresnel_0"'
+   Expressions(21)=MaterialExpressionSaturate'"MaterialExpressionSaturate_0"'
+   Expressions(22)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(23)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(24)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   Expressions(25)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   Expressions(26)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_11"'
+   Expressions(27)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_12"'
+   Expressions(28)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(29)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(30)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(31)=MaterialExpressionSubtract'"MaterialExpressionSubtract_0"'
+   Expressions(32)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(33)=MaterialExpressionMultiply'"MaterialExpressionMultiply_5"'
+   Expressions(34)=MaterialExpressionConstant2Vector'"MaterialExpressionConstant2Vector_0"'
+   Expressions(35)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(36)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   Expressions(37)=MaterialExpressionTransform'"MaterialExpressionTransform_0"'
+   Expressions(38)=MaterialExpressionNormalize'"MaterialExpressionNormalize_0"'
+   Expressions(39)=MaterialExpressionMultiply'"MaterialExpressionMultiply_6"'
+   Expressions(40)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_13"'
+   Expressions(41)=MaterialExpressionTransform'"MaterialExpressionTransform_1"'
+   Expressions(42)=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_1"'
+   Expressions(43)=MaterialExpressionMultiply'"MaterialExpressionMultiply_7"'
+   Expressions(44)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_14"'
+   Expressions(45)=MaterialExpressionAdd'"MaterialExpressionAdd_2"'
+   Expressions(46)=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"'
+   Expressions(47)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_15"'
+   Expressions(48)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_1"'
+   Expressions(49)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"'
+   Expressions(50)=MaterialExpressionRuntimeVirtualTextureSampleParameter'"MaterialExpressionRuntimeVirtualTextureSampleParameter_0"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   EditorComments(2)=MaterialExpressionComment'"MaterialExpressionComment_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="OpacityMask")
+   ParameterGroupData(2)=(GroupName="baseColor")
+   ParameterGroupData(3)=(GroupName="baseColor")
+   ParameterGroupData(4)=(GroupName="baseColor")
+   ParameterGroupData(5)=(GroupName="baseColor")
+   ParameterGroupData(6)=(GroupName="baseColor")
+   ParameterGroupData(7)=(GroupName="colorHighlight")
+   ParameterGroupData(8)=(GroupName="colorHighlight")
+   ParameterGroupData(9)=(GroupName="colorHighlight")
+   ParameterGroupData(10)=(GroupName="wind")
+   ParameterGroupData(11)=(GroupName="wind")
+   ParameterGroupData(12)=(GroupName="wind")
+   ParameterGroupData(13)=(GroupName="billboardWPO")
+   ParameterGroupData(14)=(GroupName="billboardWPO")
+   ParameterGroupData(15)=(GroupName="billboardWPO")
+   ParameterGroupData(16)=(GroupName="baseColor")
+   ParameterGroupData(17)=(GroupName="baseColor")
+   StateId=05F907064E6895A348FEC9AB94941112
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(440574345582452634,1827427916038078903,4457601844339217423,5748733375203664870,6442805052022753270,6871464372822342531,7039800480319052385,7188793122309777958,9016637157135277891,11559792262826990201,11667920079746718804,12318909377071366197,17447232401507473990),ParameterInfos=((Name="Roughness"),(Name="windWeight"),(Name="fresnelExpoent"),(Name="windIntensity"),(Name="emissiveStrength"),(Name="undersideColor"),(Name="HueShift"),(Name="billBoardSize"),(Name="normalAdd"),(Name="billboardWPOScale"),(Name="normalPower"),(Name="windSpeed"),(Name="inflate")),ExpressionGuids=(E8BBC5424E8CAE4154894E8AA89EC50D,7E03AFA4497F5E824B1CB0B99A6A5627,8F5F482142AF6B79E4FB8BAF26DC8711,A7CB11DF447ACF815F0CA6A9B777607B,22C9EDF14ECE2D21CC0BCAB39AB81714,4F6F52CE4BA6D53C92EABC92524666A2,A9BE3D034F706BC4DD50DFAB7EA170CE,9E219F854B7FBFE52087DFA9AE3FAE6B,6510816749E170EE632D449201C70CBE,EB644F8744F9C963F943DBB2DFE5B550,78AEFE16434CCC8951DF979DF09C5FD6,16987903454B33B2D7984C9111150D0B,16EDF8134A3CEF3E2F1B859B3095E173),Overrides=(False,False,False,False,False,False,False,False,False,False,False,False,False)),RuntimeEntries[1]=(NameHashes=(5520302845026162049,12279385124011487613),ParameterInfos=((Name="Highlight"),(Name="Color")),ExpressionGuids=(78ECC3174E1C9FAD16F4D285723743C7,E0C21BBE4A3DEBA96D9D669E18F10BDB),Overrides=(False,False)),RuntimeEntries[2]=(NameHashes=(9520962191712031716),ParameterInfos=((Name="OpacityMask")),ExpressionGuids=(E66F02DA44528DFFD7588F9225C5E7C5),Overrides=(False)),RuntimeEntries[4]=(NameHashes=(4899761495773286156),ParameterInfos=((Name="colorRVT")),ExpressionGuids=(08562BCD4814E8A08B882A8459EC7FD3),Overrides=(False)),ScalarValues=(1.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000,0.000000),VectorValues=((R=0.404903,G=0.479167,B=0.078242,A=1.000000),(R=0.330711,G=0.546875,B=0.038311,A=1.000000)),TextureValues=(Texture2D'"/Game/Mats/Foliage/treeAlpha.treeAlpha"'),RuntimeVirtualTextureValues=(RuntimeVirtualTexture'"/Game/Mats/RVT/landscapeColorTest.landscapeColorTest"'),EditorOnlyEntries[0]=(NameHashes=(8664069884929363958),ParameterInfos=((Name="useRVT?")),ExpressionGuids=(561709494D122C9FD0E057B0F971A174),Overrides=(False)),StaticSwitchValues=(False),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None,None,None,None,None,None,None,None,None,None,None),ScalarCurveAtlasValues=(None,None,None,None,None,None,None,None,None,None,None,None,None),VectorChannelNameValues=((),()),VectorUsedAsChannelMaskValues=(False,False),TextureChannelNameValues=(())),ReferencedTextures=(Texture2D'"/Game/Mats/Foliage/treeAlpha.treeAlpha"',RuntimeVirtualTexture'"/Game/Mats/RVT/landscapeColorTest.landscapeColorTest"'),FunctionInfos=((StateId=49637CE3497F6537F49E7E9678C0735F,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SimpleGrassWind.SimpleGrassWind"'),(StateId=B6067F674AC0092A9D7DF581EBEEE180,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/HueShift.HueShift"'),(StateId=5B938C50440B6892955AD79FCD1A8337,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=6171F45E4E64401AFE35AB9680FDED59
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="treeAlpha",TextureReference=/Game/Mats/Foliage/treeAlpha.treeAlpha)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=CB5EF92244633FE5E1861EA34D4EEA89
+End Object
